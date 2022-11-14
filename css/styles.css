@@ -1,0 +1,176 @@
+
+body {
+    background-color: #ffffff;
+    color: #2E2F42;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+/* header */
+.top-logo {
+    color: #2E2F42;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-iris {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+}
+
+.list {
+    list-style:none;
+}
+
+.list-item {
+    color: #2E2F42;
+    text-decoration: none;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.list-item:focus,
+.list-item:hover {
+    color: #4D5AE5
+}
+
+.contact {
+    text-decoration: none;
+    color: #434455;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #4D5AE5
+}
+
+/* main */
+.hero-title {
+    background-color: #2E2F42;
+    color: #ffffff;
+
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+
+.hero-button {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+
+    font-weight: inherit;
+    font-size: 16px;
+    line-height: 1.2;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    color: #ffffff;
+    background-color: #404BBF;
+}
+
+.subtitle {
+    color: #2E2F42;
+
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.list-subtitle {
+    color: #2E2F42;
+
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.list-text {
+    color: #434455;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* styles portfolio */
+
+.filtr-buttons {
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.filtr-buttons:hover,
+.filtr-buttons:focus {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+                0px 2px 1px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.card-subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.cards-filters,
+.cards-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+/* footer */
+.bottom-logo {
+    color: #F4F4FD;
+    text-decoration: none;
+    
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.bottom-text {
+    color: #E7E9FC;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bottom {
+    background-color: #2E2F42;
+}
